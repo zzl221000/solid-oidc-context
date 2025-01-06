@@ -1,36 +1,36 @@
 <p>
-  <img width="100%" src="https://assets.solidjs.com/banner?type={{name_of_lib}}&background=tiles&project=%20" alt="{{name_of_lib}}">
+  <img width="100%" src="https://assets.solidjs.com/banner?type=solid-oidc-context&background=tiles&project=%20" alt="solid-oidc-context">
 </p>
 
-# {{name_of_lib}}
+# solid-oidc-context
 
 [![pnpm](https://img.shields.io/badge/maintained%20with-pnpm-cc00ff.svg?style=for-the-badge&logo=pnpm)](https://pnpm.io/)
 
-{{desc_of_lib}}
+Lightweight auth library using the oidc-client-ts library for SolidJS.
 
-> **Note** After using this template, you have to search and replace all `{{name_of_lib}}` and similar strings
+> **Note** After using this template, you have to search and replace all `solid-oidc-context` and similar strings
 > with appropriate texts.
 >
-> `{{name_of_lib}}` should be a **kebab-case** string representing the name of you monorepo.
+> `solid-oidc-context` should be a **kebab-case** string representing the name of you monorepo.
 >
-> `{{desc_of_lib}}` should be a **Normal case** string with the description of the repository.
+> `Lightweight auth library using the oidc-client-ts library for SolidJS. ` should be a **Normal case** string with the description of the repository.
 >
-> `{{me}}` should be a **kebab-case** string from your profile URL.
+> `https://github.com/zzl221000` should be a **kebab-case** string from your profile URL.
 
 ## Quick start
 
 Install it:
 
 ```bash
-npm i {{name_of_lib}}
+npm i solid-oidc-context
 # or
-yarn add {{name_of_lib}}
+yarn add solid-oidc-context
 # or
-pnpm add {{name_of_lib}}
+pnpm add solid-oidc-context
 ```
 
 Use it:
 
 ```tsx
-import {{name_of_lib}} from '{{name_of_lib}}'
+import solid-oidc-context from 'solid-oidc-context'
 ```

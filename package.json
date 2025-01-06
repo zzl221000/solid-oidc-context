@@ -1,17 +1,17 @@
 {
-  "name": "{{name_of_lib}}",
+  "name": "solid-oidc-context",
   "version": "0.0.0",
-  "description": "{{desc_of_lib}}",
+  "description": "Lightweight auth library using the oidc-client-ts library for SolidJS. ",
   "license": "MIT",
-  "author": "{{me}}",
+  "author": "https://github.com/zzl221000",
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/{{me}}/{{name_of_lib}}.git"
+    "url": "git+https://github.com/https://github.com/zzl221000/solid-oidc-context.git"
   },
-  "homepage": "https://github.com/{{me}}/{{name_of_lib}}#readme",
+  "homepage": "https://github.com/https://github.com/zzl221000/solid-oidc-context#readme",
   "bugs": {
-    "url": "https://github.com/{{me}}/{{name_of_lib}}/issues"
+    "url": "https://github.com/https://github.com/zzl221000/solid-oidc-context/issues"
   },
   "files": [
     "dist"
@@ -83,5 +83,9 @@
   "engines": {
     "node": ">=18",
     "pnpm": ">=9.0.0"
+  },
+  "dependencies": {
+    "@solid-primitives/reducer": "^0.0.101",
+    "oidc-client-ts": "^3.1.0"
   }
 }
